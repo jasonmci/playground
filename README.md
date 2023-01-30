@@ -34,5 +34,20 @@ Set up the columns and the checkboxes like this:
 
 Use present tense, avoid the -m switch and add a more thoughtful commit in vim editor
 
+## Install or upgrade nodejs
 
+```bash
+$ brew install node
+```
 
+```bash
+$ brew upgrade node
+```
+
+## Initialize the project
+
+```bash
+$ npm init
+```
+
+You can accept the defaults
