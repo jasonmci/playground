@@ -50,4 +50,47 @@ $ brew upgrade node
 $ npm init
 ```
 
-You can accept the defaults
+Accept the defaults
+
+## What demo sites are good for test automation practice:
+
+Well Automation Panda has a great list
+https://automationpanda.com/2021/12/29/want-to-practice-test-automation-try-these-demo-sites/
+
+## Installing playwright
+
+Init playwright and select TypeScript. 
+Accept the defaults including yes to a default github workflow
+
+```shell
+$ npm init playwright@latest
+```
+
+## Installing playwright-watch
+
+Work with playwright in watch mode, which means it will run the tests when they change
+
+```shell
+npm install playwright-watch --save-dev
+```
+
+Then you can run tests with
+
+```shell
+$ npm run test:watch
+```
+
+or 
+
+```shell
+npx playwright-watch test
+```
+
+## Instaling eslint for playwright 
+
+Run the following
+
+```shell
+$ npm install -D eslint-plugin-playwright
+```
+
